@@ -1,0 +1,70 @@
+/* Font Size Setting */
+$headerSize: 36px;
+$titleSize: 34px;
+$subTitleSize: 30px;
+$textSize: 28px;
+$descriptionSize: 26px;
+$quoteSize: 24px;
+$subQuoteSize: 22px;
+$tinySize: 18px;
+
+/* Font Color Setting */
+$textColor: #333;
+$subTitleColor: #666;
+$footerColor: #777;
+$descriptionColor: #999;
+$searchPlaceholderColor: #a6a7ad;
+$placeholderColor: #bfbfbf;
+$customerLabelColor: #c4c4c4;
+$iconColor: #cfcfcf;
+$lightColor: #e0e0e0;
+
+/* Theme Color Setting */
+$themeColor: #f8530d;
+$themeActiveColor: #dc4a0b;
+$themeDisabledColor: #f8b19b;
+$subThemeColor: #1e1f32;
+$subThemeDisabledColor: #8e8f98;
+$systemColor: #2957F9;
+$systemActiveColor: #1443e8;
+$systemDialogColor: #f3f5f8;
+$blockColor: #fff;
+$blockActiveColor: #fbfbfb;
+$mainColor: #f5f6fa;
+$cardColor: #fafafa;
+$tableHeaderColor: #f5f5f5;
+$successColor :#67ce70;
+$finishColor: #00ceb2;
+$errorColor: #f8530d;
+$deleteColor: #ff4546;
+
+/* Border Setting */
+$splitBorderColor: #ececec;
+$splitBorder: 1px solid $splitBorderColor;
+$formBorderColor: #d8d8d8;
+$formBorder: 1px solid $formBorderColor;
+$lineBorderColor: #dedede;
+$lineBorder: 1px solid $lineBorderColor;
+$tableBorderColor: #ededed;
+$tableBorder: 1px solid $tableBorderColor;
+$uploadBorderColor: #dedede;
+$uploadBorder: 1px solid $uploadBorderColor;
+$cardSplitBorderColor: #cfcfcf;
+$cardSplitBorder: 1px solid $cardSplitBorderColor;
+
+/* Size Setting */
+$screenWidth: 750px;
+$headerHeight: 88px;
+$footerHeight: 98px;
+
+/* Radius Setting */
+$dialogRadius: 18px;
+$cardRadius: 10px;
+
+/* z-index Setting */
+$toastIndex: 10;
+$loadingIndex: 9;
+$dialogIndex: 8;
+$popoverIndex: 7;
+$headerIndex: 2;
+$itemOverIndex: 1;

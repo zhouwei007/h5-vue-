@@ -1,0 +1,22 @@
+{
+  "name": "维客易",
+  "short_name": "维客易",
+  "description": "财富自由之路就从加入我们开始！",
+  "icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#302d2d"
+}

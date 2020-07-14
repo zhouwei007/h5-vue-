@@ -1,0 +1,39 @@
+@import './setting';
+
+%text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin placeholder($color) {
+  :-moz-placeholder {
+    color: $color;
+  }
+
+  ::-moz-placeholder {
+    color: $color;
+  }
+
+  input:-ms-input-placeholder{
+    color: $color;
+  }
+
+  input::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+
+@mixin number($fontSize) {
+  font-size: $fontSize;
+  font-family: 'Harabara';
+}
+
+@mixin label($fontSize) {
+  font-size: $fontSize;
+  font-family: 'Semibold';
+}
+
+@function rand($min, $max) {
+  @return random() * ($max - $min) + $min;
+}

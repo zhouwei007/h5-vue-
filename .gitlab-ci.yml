@@ -1,0 +1,55 @@
+variables:
+  DEPLOY_PATH: /opt/vhost/develop.static.yun.huli.com/jinjian/static/
+  ONLINE_DEPLOY_PATH: /opt/vhost/static.yun.huli.com/jinjian/static/
+  SONAR_RC_HOST: 'http://192.168.100.10:9000/sonar'
+  SONAR_PROJECT: 'soeasy-yjj-static'
+  SONAR_ACCESSTOKEN: 'e385277fc647853bfd85a90cb761ef4df2931276e094a196a1228d6223055a52'
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - deploy
+
+deploy_ndev:
+  stage: deploy
+  tags:
+    - SAAS
+  only:
+    - /^dev\/.*$/
+  script:
+    - npm install -d --registry=https://registry.npm.taobao.org
+    - npm run ndev
+    - rsync -avPlrt dist/* $DEPLOY_PATH
+    
+deploy_nrc:
+  stage: deploy
+  tags:
+    - saas_nrc
+  only:
+    - /^nrc\/.*$/
+  script:
+    - npm install -d --registry=https://registry.npm.taobao.org
+    - npm run nrc
+    - rsync -avPlrt dist/* $DEPLOY_PATH
+
+deploy_master:
+  stage: deploy
+  tags:
+    - saas_nrc
+  only:
+    - master
+  script:
+    - npm install -d --registry=https://registry.npm.taobao.org
+    - npm run build
+    - rsync -avPlrt dist/* $DEPLOY_PATH
+    - rsync -avPlrt dist/* $ONLINE_DEPLOY_PATH --exclude *.cache --exclude *.map
+    - sonar-scanner
+      -Dsonar.projectKey=$SONAR_PROJECT
+      -Dsonar.projectName=$SONAR_PROJECT
+      -Dsonar.sourceEncoding=UTF-8
+      -Dsonar.sources=src
+      -Dsonar.version=$CI_COMMIT_SHA
+      -Dsonar.javascript.exclusions=**/node_modules/**,**/build/**,**/dist/**
+      -Dsonar.analysis.accessToken=$SONAR_ACCESSTOKEN

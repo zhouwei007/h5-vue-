@@ -1,0 +1,50 @@
+{
+  "name": "soeasy-yjj-static",
+  "version": "1.0.0",
+  "description": "soeasy saas yjj project",
+  "author": "sungaozhan <sungaozhan@huli.com>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "nrc": "vue-cli-service build --mode nrc",
+    "ndev": "vue-cli-service build --mode ndev",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "axios": "^0.18.0",
+    "exif-js": "^2.3.0",
+    "form-data": "^2.3.3",
+    "lib-flexible": "^0.3.2",
+    "node-rsa": "^1.0.6",
+    "photoswipe": "^4.1.3",
+    "query-string": "^6.4.2",
+    "register-service-worker": "^1.6.2",
+    "sa-sdk-javascript": "^1.14.12",
+    "swiper": "^5.2.0",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.1",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-router": "^3.0.6",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.1.0",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "generate-json-webpack-plugin": "^0.3.1",
+    "postcss-pxtorem": "^4.0.1",
+    "sass": "^1.19.0",
+    "sass-loader": "^7.1.0",
+    "vconsole": "^3.3.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

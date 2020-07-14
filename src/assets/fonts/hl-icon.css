@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "hl-icon";
+  src: url('./hl-icon.eot?t=1586314263366');
+  src: url('./hl-icon.eot?t=1586314263366#iefix') format('embedded-opentype'),
+    url('./hl-icon.woff2?t=1586314263366') format('woff2'),
+    url('./hl-icon.woff?t=1586314263366') format('woff'),
+    url('./hl-icon.ttf?t=1586314263366') format('truetype'),
+    url('./hl-icon.svg?t=1586314263366#hl-icon') format('svg');
+}
+
+.hl-icon {
+  font-family: "hl-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hl-icon.hl-icon-round-close-fill::before { content: "\e106"; }
+.hl-icon.hl-icon-round::before { content: "\e107"; }
+.hl-icon.hl-icon-trash::before { content: "\e108"; }
+.hl-icon.hl-icon-success::before { content: "\e109"; }
+.hl-icon.hl-icon-lock::before { content: "\e10a"; }
+.hl-icon.hl-icon-phone::before { content: "\e10b"; }
+.hl-icon.hl-icon-plus::before { content: "\e10c"; }
+.hl-icon.hl-icon-round-check-fill::before { content: "\e10d"; }
+.hl-icon.hl-icon-search::before { content: "\e10e"; }
+.hl-icon.hl-icon-fail::before { content: "\e10f"; }
+.hl-icon.hl-icon-arrow-down::before { content: "\e110"; }
+.hl-icon.hl-icon-arrow-left::before { content: "\e111"; }
+.hl-icon.hl-icon-arrow-right::before { content: "\e112"; }
+.hl-icon.hl-icon-arrow-up::before { content: "\e113"; }
+.hl-icon.hl-icon-audit::before { content: "\e114"; }
+.hl-icon.hl-icon-camera::before { content: "\e115"; }
+.hl-icon.hl-icon-card::before { content: "\e116"; }
+.hl-icon.hl-icon-certificate::before { content: "\e117"; }
+.hl-icon.hl-icon-eye-close::before { content: "\e118"; }
+.hl-icon.hl-icon-eye::before { content: "\e119"; }
+.hl-icon.hl-icon-service::before { content: "\e11a"; }
+.hl-icon.hl-icon-setting::before { content: "\e11b"; }
+.hl-icon.hl-icon-partner::before { content: "\e0e9"; }
+.hl-icon.hl-icon-commend::before { content: "\e0ea"; }
+.hl-icon.hl-icon-wallet::before { content: "\e0ec"; }
+.hl-icon.hl-icon-close::before { content: "\e000"; }
+.hl-icon.hl-icon-info::before { content: "\e11c"; }
+.hl-icon.hl-icon-photo::before { content: "\e13e"; }
+.hl-icon.hl-icon-round-minus-fill::before { content: "\e140"; }
+.hl-icon.hl-icon-round-plus-fill::before { content: "\e141"; }
+.hl-icon.hl-icon-voice::before { content: "\e142"; }
+.hl-icon.hl-icon-more::before { content: "\e143"; }
+.hl-icon.hl-icon-capital::before { content: "\e145"; }
+.hl-icon.hl-icon-interest::before { content: "\e146"; }
+.hl-icon.hl-icon-method::before { content: "\e147"; }
+.hl-icon.hl-icon-car::before { content: "\e148"; }
+.hl-icon.hl-icon-exchange::before { content: "\e149"; }
+.hl-icon.hl-icon-house::before { content: "\e14a"; }
+.hl-icon.hl-icon-repay::before { content: "\e14b"; }
+.hl-icon.hl-icon-store::before { content: "\e14c"; }
+.hl-icon.hl-icon-square-check-fill::before { content: "\e14d"; }
+.hl-icon.hl-icon-square::before { content: "\e14e"; }
+.hl-icon.hl-icon-mark::before { content: "\e14f"; }
+.hl-icon.hl-icon-house-Trkt::before { content: "\e150"; }
+.hl-icon.hl-icon-group::before { content: "\e151"; }
+.hl-icon.hl-icon-recent::before { content: "\e152"; }
+.hl-icon.hl-icon-add::before { content: "\e153"; }
+.hl-icon.hl-icon-search-more::before { content: "\e154"; }
+.hl-icon.hl-icon-round-check::before { content: "\e155"; }
+.hl-icon.hl-icon-apartment::before { content: "\e144"; }
+.hl-icon.hl-icon-customer::before { content: "\e156"; }
+.hl-icon.hl-icon-record::before { content: "\e157"; }
+.hl-icon.hl-icon-brush::before { content: "\e020"; }
+.hl-icon.hl-icon-round-warning::before { content: "\e158"; }
+.hl-icon.hl-icon-query::before { content: "\e159"; }
+.hl-icon.hl-icon-round-dot::before { content: "\e15a"; }
+.hl-icon.hl-icon-triangle-up::before { content: "\e098"; }
+.hl-icon.hl-icon-safe::before { content: "\e15e"; }
+.hl-icon.hl-icon-asterisk::before { content: "\e160"; }
+.hl-icon.hl-icon-round-warning-fill::before { content: "\e162"; }
+.hl-icon.hl-icon-search-more-fill::before { content: "\e163"; }
+.hl-icon.hl-icon-eye-fine::before { content: "\e09b"; }
+.hl-icon.hl-icon-eye-close-fine::before { content: "\e09c"; }
+.hl-icon.hl-icon-combine::before { content: "\e16c"; }
+.hl-icon.hl-icon-tax::before { content: "\e16d"; }
+.hl-icon.hl-icon-mail::before { content: "\e175"; }
+.hl-icon.hl-icon-lock-fill::before { content: "\e182"; }
+.hl-icon.hl-icon-user-add::before { content: "\e18e"; }
+.hl-icon.hl-icon-add-customer::before { content: "\e1a1"; }
+.hl-icon.hl-icon-group-customer::before { content: "\e1a2"; }
+.hl-icon.hl-icon-recent-add::before { content: "\e1a3"; }
+.hl-icon.hl-icon-msg::before { content: "\e18f"; }
+.hl-icon.hl-icon-product-hot::before { content: "\e1a9"; }
+.hl-icon.hl-icon-product-recommd::before { content: "\e1aa"; }
+.hl-icon.hl-icon-product-gift::before { content: "\e1ab"; }
+.hl-icon.hl-icon-product-star::before { content: "\e1ac"; }
+.hl-icon.hl-icon-refresh::before { content: "\e012"; }
+.hl-icon.hl-icon-recommend-fill::before { content: "\e1b1"; }
+.hl-icon.hl-icon-recommend::before { content: "\e1b2"; }
+.hl-icon.hl-icon-profile::before { content: "\e1b3"; }
+.hl-icon.hl-icon-profile-fill::before { content: "\e1b4"; }
+.hl-icon.hl-icon-customers::before { content: "\e1b5"; }
+.hl-icon.hl-icon-customers-fill::before { content: "\e1b6"; }
+.hl-icon.hl-icon-marketing::before { content: "\e1b7"; }
+.hl-icon.hl-icon-marketing-fill::before { content: "\e1b8"; }
+.hl-icon.hl-icon-broker::before { content: "\e17f"; }
+.hl-icon.hl-icon-lend_normal::before { content: "\e1b9"; }
